@@ -117,7 +117,7 @@ if(empty($_POST['first_name'])) {
 
      } else {
 
-       echo 'Error Occured<br/>';
+       echo 'Error Occured \n';
 
           echo mysqli_error();
 
@@ -130,7 +130,7 @@ if(empty($_POST['first_name'])) {
 
      } else {
 
-       echo 'You need to enter the following data<br/>';
+       echo 'You need to enter the following data </br>';
 
        foreach($data_missing as $missing) {
 
